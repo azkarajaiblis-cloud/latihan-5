@@ -1,0 +1,10 @@
+harga = int(input("harga barang:  "))
+if harga >= 100.000:
+    diskon = 50
+elif harga >= 500.00:
+    diskon = 25
+else:
+	diskon = 0
+
+bayar = harga - (harga * diskon)
+print("diskon di dapat kan: ", diskon)
